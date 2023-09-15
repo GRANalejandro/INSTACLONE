@@ -1,0 +1,32 @@
+.aside__item{
+    display: flex;
+    align-items: center;
+    flex: 1 1 0;
+    font-size: 30px;
+}
+.aside__item > p{
+    position: relative;
+    font-size: min(5vmin, 31px);
+}
+.aside__item > p::before{
+    content: "";
+    position: absolute;
+    top: calc(50% - min(2.4vmin, 14px));
+    right: -19%;
+    width: min(2.8vmin, 16px);
+    height: min(2.8vmin, 16px);
+    transform: rotate(45deg);
+    border-left: 1px solid transparent;
+    border-right: 3px solid black;
+    border-top: 1px solid transparent;
+    border-bottom: 3px solid black;
+}
+.aside__item:nth-child(2){
+    justify-content: flex-end;
+    gap: 18px;
+}
+.aside__item > div{
+    width: 6vmin;
+    height: 6vmin;
+    border: 1px solid black;
+}

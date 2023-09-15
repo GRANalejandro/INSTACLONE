@@ -1,0 +1,33 @@
+.aside__item{
+    display: flex;
+    align-items: center;
+    flex: 1 1 0;
+    padding-left: 27px;
+    font-size: 30px;
+}
+.aside__item > p{
+    position: relative;
+}
+.aside__item > p::before{
+    content: "";
+    position: absolute;
+    top: calc(50% - 10px);
+    transform: rotate(45deg);
+    right: -30px;
+    border-left: 1px solid transparent;
+    border-right: 3px solid black;
+    border-top: 1px solid transparent;
+    border-bottom: 3px solid black;
+    width: 12px;
+    height: 12px;
+}
+.aside__item:nth-child(2){
+    justify-content: flex-end;
+    gap: 18px;
+    padding-right: 27px;
+}
+.aside__item > div{
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+}
