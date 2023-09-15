@@ -1,6 +1,6 @@
 .stories__item{
-    width: 16.8vmin;
-    height: 16.8vmin;
+    width: max(16.8vmin, 72px);
+    height: max(16.8vmin, 72px);
     border: 1px solid black;
     border-radius: 50%;
 }

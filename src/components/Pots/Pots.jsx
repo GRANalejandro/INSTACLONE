@@ -1,3 +1,4 @@
+import PotsImages from '../PostImages/PostImage';
 import './Pots.css'
 
 const Pots = ()=>{
@@ -7,6 +8,7 @@ const Pots = ()=>{
                 <div></div>
                 <div></div>
             </div>
+            <PotsImages/>
         </div>
     )
 };
