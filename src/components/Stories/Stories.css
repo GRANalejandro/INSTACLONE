@@ -1,0 +1,9 @@
+.stories{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+.stories__content{
+    flex: 1 1 0;
+    display: flex;
+}

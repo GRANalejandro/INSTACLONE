@@ -1,0 +1,12 @@
+.pots{
+    flex: 1 1 0;
+}
+.pots__sections{
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+.pots__sections > div{
+    flex: 1 1 0;
+    border: 1px solid black;
+}

@@ -4,23 +4,23 @@ import './menu.css'
 const Menu = ()=>{
     const images = [
      {
-        image_rut: 'casa.png',
+        image_rut: 'house.svg',
         alt: 'Icono de la casa de la barra de navegacion de instagram'
      },
      {
-        image_rut: 'casa.png',
+        image_rut: 'magnifying.svg',
         alt: 'Icono de la casa de la barra de navegacion de instagram'
      },
      {
-        image_rut: 'casa.png',
+        image_rut: 'square.svg',
         alt: 'Icono de la casa de la barra de navegacion de instagram'
      },
      {
-        image_rut: 'casa.png',
+        image_rut: 'feels.svg',
         alt: 'Icono de la casa de la barra de navegacion de instagram'
      },
      {
-        image_rut: 'casa.png',
+        image_rut: 'profile.svg',
         alt: 'Icono de la casa de la barra de navegacion de instagram'
      },
     ]

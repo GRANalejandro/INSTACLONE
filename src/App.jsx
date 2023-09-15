@@ -4,6 +4,7 @@ import Profile from './components/profile/Profile'
 import Menu from './components/Menu/Menu'
 import AsideComponent from './components/AsideComponent/AsideComponent'
 import MenuToggle from './components/menuToggle/menuToggle'
+import Pots from './components/pots/Pots'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,6 +16,7 @@ function App() {
       </header>
       <main className='main'>
         <Profile/>
+        <Pots/>
       </main>
       <aside className='aside'>
         <AsideComponent/>
