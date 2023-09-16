@@ -5,5 +5,7 @@
 @media screen and (min-width: 800px){
     .menu{
         flex-direction: column;
+        max-height: 521px;
+        min-height: 521px;
     }
 }

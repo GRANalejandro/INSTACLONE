@@ -1,8 +1,9 @@
 .profile__buttons{
     display: flex;
+    gap: 2%;
     width: 100%;
     min-height: 36px;
-    gap: 2%;
+    overflow: hidden;
 }
 .profile__buttons > button{
     flex: 1 1 0;

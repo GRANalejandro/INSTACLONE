@@ -1,0 +1,17 @@
+.menu--toggle{
+    flex: 0 1 0;
+    width: 0;
+}
+
+@media screen and (min-width: 800px){
+    .menu--toggle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1 0;
+        width: auto;
+    }
+    .menu--toggle > img{
+        width: 73%;
+    }
+}

@@ -12,6 +12,7 @@
   width: 100%;
   height: 60px;
   border: 1px solid black;
+  background-color: #fff;
 }
 
 .main{
@@ -20,6 +21,7 @@
   width: 100%;
   height: 100%;
   margin-top: 60px;
+  overflow: scroll;
 }
 
 .aside{
@@ -27,6 +29,7 @@
   top: 0;
   z-index: 2;
   display: flex;
+  gap: 19%;
   width: 100%;
   height: 60px;
   border-bottom: 1px solid black;
@@ -38,17 +41,18 @@
   padding-right: 4%;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   #root{
     display: flex;
   }
   .header{
     position: relative;
+    display: flex;
+    flex-direction: column;
     flex: 1 1 0;
     height: 100%;
     border-left: 1px solid black;
-    max-width: 100px;
-    min-width: 100px;
+    max-width: 71px;
   }
   .main{
     flex: 1 1 0;
@@ -60,9 +64,9 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1264px) {
   .header{
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 254px;
+    min-width: 254px;
   }
 }

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
-    margin-bottom: 60px;
+    margin-bottom: 122px;
 }
 .pots > div{
     flex: 1 1 0;
@@ -15,4 +15,10 @@
 .pots__sections > div{
     flex: 1 1 0;
     border: 1px solid black;
+}
+
+@media screen and (min-width: 800px){
+    .pots{
+        margin-bottom: 40px;
+    }
 }

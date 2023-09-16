@@ -1,0 +1,7 @@
+.stories--text{
+    width: 100%;
+    overflow: hidden;
+}
+.stories--text > p{
+    min-width: 200px;
+}
