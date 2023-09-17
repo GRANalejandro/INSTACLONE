@@ -2,16 +2,30 @@
     flex: 0 1 0;
     width: 0;
 }
+.menu--toggle > p{
+    display: none;
+}
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 768px){
     .menu--toggle{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
         flex: 1 1 0;
         width: auto;
     }
     .menu--toggle > img{
         width: 73%;
+    }
+}
+@media screen and (min-width: 1264px){
+    .menu--toggle{
+        justify-content: flex-start;
+    }
+    .menu--toggle > img{
+        width: 14%;
+    }
+    .menu--toggle > p{
+        display: block;
     }
 }

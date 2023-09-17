@@ -7,6 +7,7 @@ const Pots = ()=>{
             <div className='pots__sections'>
                 <div></div>
                 <div></div>
+                <div></div>
             </div>
             <PotsImages/>
         </div>

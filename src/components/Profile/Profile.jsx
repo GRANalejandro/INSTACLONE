@@ -9,7 +9,7 @@ const Profile = ()=>{
     return(
         <section className="profile">
             <ProfilePrincipal/>
-            <ProfileName/>
+            <ProfileName etiqueta={'article'} secondClass={'profile__name--one'}/>
             <ProfileButtons/>
             <StoriesText/>
             <Stories/>

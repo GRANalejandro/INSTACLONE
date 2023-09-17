@@ -5,7 +5,7 @@ const Menu = ()=>{
     const images = [
       {
          image_rut: 'house.svg',
-         image_rut2: 'square.svg',
+         image_rut2: 'instaDesktop.svg',
          alt: 'Icono de la casa de la barra de navegacion de instagram',
          secondAlt: 'Icono de cuadrado en la barra de navegacion',
          onSecondImg: true,

@@ -1,4 +1,16 @@
 .profile__name{
     width: 100%;
-    padding-left: 8%;
+}
+.profile__name--two{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .profile__name--one{
+        display: none;
+    }
+    .profile__name--two{
+        display: flex;
+        flex-direction: column;
+    }
 }

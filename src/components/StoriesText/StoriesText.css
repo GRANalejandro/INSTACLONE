@@ -5,3 +5,9 @@
 .stories--text > p{
     min-width: 200px;
 }
+
+@media screen and (min-width: 768px) {
+    .stories--text{
+        display: none;
+    }
+}

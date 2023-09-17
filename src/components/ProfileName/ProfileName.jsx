@@ -1,12 +1,12 @@
 import './ProfileName.css'
 
-const ProfileName = ()=>{
+const ProfileName = ({etiqueta: Tagname, secondClass})=>{
     return(
-        <article className="profile__name">
+        <Tagname className={`profile__name ${secondClass}`}>
             <p>Jhon</p>
             <p>**</p>
             <p>GOD'S-PLAN</p>
-        </article>
+        </Tagname>
     )
 };
 

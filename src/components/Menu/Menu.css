@@ -2,7 +2,7 @@
     display: flex;
     flex: 1 1 0;
 }
-@media screen and (min-width: 800px){
+@media screen and (min-width: 768px){
     .menu{
         flex-direction: column;
         max-height: 521px;
